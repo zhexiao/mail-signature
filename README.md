@@ -46,6 +46,8 @@ return [
 Technical
 ---------
 
-### [Yii](http://www.yiiframework.com/) The Fast, Secure and Professional PHP Framework.
-### [Handlebars](http://handlebarsjs.com/) Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
-### [Cloudinary](http://cloudinary.com/) Cloudinary is the image back-end for web and mobile developers. An end-to-end solution for all your image-related needs.
+-- [Yii](http://www.yiiframework.com/) The Fast, Secure and Professional PHP Framework.
+
+-- [Handlebars](http://handlebarsjs.com/) Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
+
+-- [Cloudinary](http://cloudinary.com/) Cloudinary is the image back-end for web and mobile developers. An end-to-end solution for all your image-related needs.
