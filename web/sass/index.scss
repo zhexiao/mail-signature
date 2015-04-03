@@ -1,0 +1,159 @@
+@mixin css3($property, $value) {
+	-khtml-#{$property}: $value;
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+.white-popup{
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	@include css3(border-radius, 5px);
+}
+
+#w0{
+	border: none;
+	margin: 0;
+
+	li.active{
+		a{
+			color: #00cfef;
+			background: none;
+		}
+	}
+}
+
+.index-container{
+	.index-top{
+		.i-t-example{
+			background-color: #fff;
+			border: 1px solid #ccc;
+			min-height: 300px;
+			@include css3(border-radius, 5px);
+
+			.i-t-e-top{
+				border-bottom: 1px solid #ccc;
+				text-align: left;
+				padding: 10px;
+			}
+
+			span.dot{
+				@include css3(border-radius, 50%);
+				display: inline-block;
+				padding: 6px;
+			}
+
+			.dot-red {
+			  	background-color: #d50808;
+			}
+
+			.dot-yellow {
+			  	background-color: #f5be15;
+			}
+
+			.dot-green {
+			  	background-color: #34b51a;
+			}
+
+			.i-t-e-text{
+				float: right;
+				font-size: 13px;
+			}
+		}
+
+		.i-t-right-wrap{
+			text-align: center;
+		}
+	}
+}
+
+.share-div{
+	.fa{
+		display: inline-block;
+		background: #161616;
+		color: #fff;
+		font-size: 14px;
+		width: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin-right: 15px;
+		text-decoration: none;
+		@include css3(transition, all 0.6s);
+	}
+
+	.fa:hover {
+	  background: #b93434;
+	}
+
+	.fa-facebook {
+		background: #204385; }
+	.fa-twitter {
+		background: #2aa9e0; }
+	.fa-google-plus {
+		background: #d3492c; }
+	.fa-linkedin {
+		background: #02669a; }
+}
+
+.index-mid{
+	.email-tpl-wrap{
+		margin-bottom:20px;
+
+		.e-t-w-container{
+			@include css3(border-radius, 5px);
+			border:1px solid #ccc;
+			padding: 10px 20px 20px;
+			position:relative;
+		}
+
+		.e-t-w-t1{
+			margin-top: 5px;
+		}
+
+		.edit-email-tpl{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 16px;
+			cursor: pointer;
+			display: none;
+			@include css3(transition, all 0.6s);
+		}
+
+		.edit-email-tpl:hover{
+			color: #329adb;
+		}
+	}
+
+	.email-tpl-wrap:hover{
+		.edit-email-tpl{
+			display: inline-block;
+		}
+	}
+
+	.edit-ele[contenteditable=true]{
+	  	padding: 0px 4px 0 0px;
+	  	border-bottom: 1px solid #ccc;
+	  	outline: 0;
+	  	margin-bottom: 2px;
+	  	display: inline-block;
+	}
+}
+
+.gen-sig-content{
+	width: 100%;
+	height: 300px;
+	outline: 0;
+	font-size: 12px;
+	line-height: 1.5;
+	@include css3(border-radius, 3px);
+	background: #f1f1f1;
+	border: 0;
+	padding: 10px;
+	cursor: text;
+}
