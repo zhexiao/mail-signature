@@ -51,3 +51,5 @@ Technical
 - [Handlebars](http://handlebarsjs.com/) Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
 
 - [Cloudinary](http://cloudinary.com/) Cloudinary is the image back-end for web and mobile developers. An end-to-end solution for all your image-related needs.
+- [Bootstrap](http://getbootstrap.com/) Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
