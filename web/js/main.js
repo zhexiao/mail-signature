@@ -44,7 +44,7 @@ var signature = (function($){
             items: {
                 src:    '<div class="white-popup"> \
                             <h2>Copy html to your mail signature</h2> \
-                            <textarea disabled class="gen-sig-content">' +data+ '</textarea> \
+                            <textarea class="gen-sig-content">' +data+ '</textarea> \
                         </div>',
                 type: 'inline'
             },
