@@ -1,4 +1,4 @@
-Yii 2 Basic Application Template
+Mail Signature
 ================================
 
 Yii 2 Basic Application Template is a skeleton Yii 2 application best for
