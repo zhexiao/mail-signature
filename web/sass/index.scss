@@ -31,7 +31,7 @@
 .index-container{
 	.index-top{
 		.i-t-example{
-			background-color: #fff;
+			background-color: #f9f9f9;
 			border: 1px solid #ccc;
 			min-height: 300px;
 			@include css3(border-radius, 5px);
@@ -64,10 +64,6 @@
 				float: right;
 				font-size: 13px;
 			}
-		}
-
-		.i-t-right-wrap{
-			text-align: center;
 		}
 	}
 }
@@ -109,6 +105,7 @@
 			border:1px solid #ccc;
 			padding: 10px 20px 20px;
 			position:relative;
+			background-color: #f9f9f9;
 		}
 
 		.e-t-w-t1{
@@ -156,4 +153,31 @@
 	border: 0;
 	padding: 10px;
 	cursor: text;
+}
+
+.i-t-right-wrap{
+	padding: 0 15px;
+}
+
+.i-t-r-info{
+	border: 1px solid #dfdfdf;
+	padding: 20px;
+	line-height: 2;
+	font-size: 17px;
+	color: #561F91;
+	@include css3(border-radius, 5px);
+	background-color: #f9f9f9;
+}
+
+#mail-sig-carousel{
+	margin: 20px 0;
+	border: 2px solid #dfdfdf;
+	@include css3(box-shadow, 0 0 5px #dfdfdf);
+
+	.item{
+		img {
+			height: 400px;
+			width: 100%;
+		}
+	}
 }
