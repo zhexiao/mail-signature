@@ -31,6 +31,7 @@
 .index-container{
 	.index-top{
 		.i-t-example{
+			margin-top: 20px;
 			background-color: #f9f9f9;
 			border: 1px solid #ccc;
 			min-height: 300px;
@@ -160,6 +161,7 @@
 }
 
 .i-t-r-info{
+	margin-top: 20px;
 	border: 1px solid #dfdfdf;
 	padding: 20px;
 	line-height: 2;
@@ -170,7 +172,7 @@
 }
 
 #mail-sig-carousel{
-	margin: 20px 0;
+	margin-top: 20px;
 	border: 2px solid #dfdfdf;
 	@include css3(box-shadow, 0 0 5px #dfdfdf);
 
