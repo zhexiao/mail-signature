@@ -28,6 +28,8 @@ var signature = (function($){
         var $data = $(data);
         // remove button and fa
         $data.find('button, .fa').remove();
+        // remove contenteidtable attribute
+        $data.find('.edit-ele').removeAttr('contenteditable');
 
         // change email link
         $data.find('.email').attr('href',  'mailto:'+$data.find('.email').html());

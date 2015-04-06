@@ -20,17 +20,17 @@
 
                 <div style="margin-top:5px;">
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                    <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                    <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
                 </div>
 
-                <div>
+                <div style="margin-top:5px;">
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
+                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
                 </div>
 
                  <div>
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                    <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
                 </div>  
 
                 <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
@@ -55,17 +55,17 @@
 
                 <div style="margin-top:5px;margin-left:10px;">
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                    <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                    <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;margin-left:3px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
                 </div>
 
-                <div style="margin-left:10px;">
+                <div style="margin-left:10px;margin-top:5px;">
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
+                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
                 </div>
 
                  <div style="margin-left:10px;">
                     <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                    <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
                 </div>  
             </div>
 
@@ -91,17 +91,17 @@
 
             <div style="margin-top:5px;">
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
             </div>
           
-            <div>
+            <div style="margin-top:5px;">
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                <a class="edit-ele c-link" href="{{website}}" target="_blank" style="display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
+                <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
             </div>
 
              <div>
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
             </div>            
 
             <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
@@ -120,7 +120,7 @@
                 {{job-position}}
             </div>
 
-            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 5px 10px 5px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);">
+            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 10px 10px 5px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);">
 
             <div style="border: 1px solid #dfdfdf;background:#EAEEF3;color:#333;font-size:13px;padding:10px;text-align:center;border-radius:5px;margin-top:5px;" class="edit-ele">
                 {{intro}}
@@ -128,12 +128,12 @@
 
             <div style="margin-top:10px;">
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
             </div>
 
-             <div>
+             <div style="margin-top:5px;">
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
             </div> 
 
             <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
