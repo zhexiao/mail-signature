@@ -42,9 +42,9 @@
         <div class="e-t-w-container clearfix">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="float: right;margin: 3px 10px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
-
             <div style="float:left;padding-left:0px;border-left:5px solid #E04836;">
+                <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 0px 10px 10px 10px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
+
                 <div class="edit-ele name" style="margin-left:10px;font-size:14px;font-weight: bold;">
                     {{first-last-name}}
                 </div>
