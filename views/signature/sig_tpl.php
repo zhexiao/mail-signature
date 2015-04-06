@@ -33,7 +33,7 @@
                     <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
                 </div>  
 
-                <button class="btn btn-success btn-xs generate-signature" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
+                <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
             </div>
         </div>
     </div>
@@ -69,8 +69,9 @@
                 </div>  
             </div>
 
+            <div class="clearfix"></div>
 
-            <button class="btn btn-success btn-xs generate-signature" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 
@@ -103,7 +104,7 @@
                 <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
             </div>            
 
-            <button class="btn btn-success btn-xs generate-signature" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 
@@ -135,7 +136,7 @@
                 <span class="edit-ele phone" style="display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
             </div> 
 
-            <button class="btn btn-success btn-xs generate-signature" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 </script>

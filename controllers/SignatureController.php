@@ -12,11 +12,11 @@ class SignatureController extends Controller{
 
     public function actionIndex(){
         $data = [
-            'first-last-name' => 'Firstname Lastname',
+            'first-last-name' => 'Lastname Firstname',
             'job-position' => 'Job Position',
             'email' => 'email@email.com',
             'company-name' => 'Company Name',
-            'website' => 'http://your.website.com',
+            'website' => 'http://website.com',
             'phone' => '+1 203 999 2222',
             'intro' => 'Write yourself introduction.'
         ];
