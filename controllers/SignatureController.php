@@ -16,8 +16,9 @@ class SignatureController extends Controller{
             'job-position' => 'Job Position',
             'email' => 'email@email.com',
             'company-name' => 'Company Name',
-            'company-site' => 'http://company.com',
-
+            'website' => 'http://your.website.com',
+            'phone' => '+1 203 999 2222',
+            'intro' => 'Write yourself introduction.'
         ];
 
         return \yii\helpers\Json::encode($data);

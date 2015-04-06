@@ -64,6 +64,7 @@
 			.i-t-e-text{
 				float: right;
 				font-size: 13px;
+				color: #777;
 			}
 		}
 	}
@@ -126,6 +127,10 @@
 		.edit-email-tpl:hover{
 			color: #329adb;
 		}
+
+		a:hover{
+			text-decoration: none;
+		}
 	}
 
 	.email-tpl-wrap:hover{
@@ -139,7 +144,6 @@
 	  	border-bottom: 1px solid #ccc;
 	  	outline: 0;
 	  	margin-bottom: 2px;
-	  	display: inline-block;
 	}
 }
 
@@ -166,7 +170,7 @@
 	padding: 20px;
 	line-height: 2;
 	font-size: 17px;
-	color: #561F91;
+	color: #777;
 	@include css3(border-radius, 5px);
 	background-color: #f9f9f9;
 }
