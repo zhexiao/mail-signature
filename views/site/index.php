@@ -16,13 +16,13 @@ use yii\helpers\Url;
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="http://blogs-images.forbes.com/learnvest/files/2014/09/side-business-grow.jpg">
+                <img src="/images/slide1.jpg">
             </div>
             <div class="item">
-                <img src="http://www.albertpalacci.net/wp-content/uploads/2014/06/Mobile-Business.jpg">
+                <img src="/images/slide2.jpg">
             </div>
             <div class="item">
-                <img src="http://www.the-faith.com/wp-content/uploads/2014/10/businesses.jpg">
+                <img src="/images/slide3.jpg">
             </div>
         </div>
 

@@ -7,7 +7,7 @@
         <div class="e-t-w-container clearfix">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="float: left;margin: 3px 10px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
+            <img src="/images/profile.png" width="60" height="60" style="float: left;margin: 3px 10px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
             <div style="float:left;">
                 <div class="edit-ele name" style="font-size:14px;font-weight: bold;">
@@ -43,7 +43,7 @@
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="float:left;padding-left:0px;border-left:5px solid #E04836;">
-                <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 0px 10px 10px 10px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
+                <img src="/images/profile.png" width="60" height="60" style="margin: 0px 10px 10px 10px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
                 <div class="edit-ele name" style="margin-left:10px;font-size:14px;font-weight: bold;">
                     {{first-last-name}}
@@ -87,7 +87,7 @@
                 {{job-position}}
             </div>
 
-            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 5px 10px 5px 0px;border-radius:50%;cursor:pointer;" onclick="signature._uploadImg(event);">
+            <img src="/images/profile.png" width="60" height="60" style="margin: 5px 10px 5px 0px;border-radius:50%;cursor:pointer;" onclick="signature._uploadImg(event);">
 
             <div style="margin-top:5px;">
                 <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
@@ -120,7 +120,7 @@
                 {{job-position}}
             </div>
 
-            <img src="<?='http://'.$_SERVER['SERVER_NAME']?>/images/profile.png" width="60" height="60" style="margin: 10px 10px 5px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);">
+            <img src="/images/profile.png" width="60" height="60" style="margin: 10px 10px 5px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);">
 
             <div style="border: 1px solid #dfdfdf;background:#EAEEF3;color:#333;font-size:13px;padding:10px;text-align:center;border-radius:5px;margin-top:5px;" class="edit-ele">
                 {{intro}}
