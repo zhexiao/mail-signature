@@ -4,7 +4,7 @@
     </form>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;background-color:#fff;border:1px solid #dfdfdf;padding:20px;box-shadow: 0 1px 2px #ccc;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;max-width:300px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <img src="/images/profile.png" width="60" height="60" style="float: left;margin: 3px 20px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
@@ -39,7 +39,7 @@
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;background-color:#fff;border:1px solid #dfdfdf;padding:20px;box-shadow: 0 1px 2px #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;border-radius:5px;max-width:300px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="float:left;padding-left:0px;border-left:5px solid #3EAADD;">
@@ -76,7 +76,7 @@
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="background-color:#fff;border-radius:5px 5px 0 0;border:1px solid #dfdfdf;position:relative;padding:20px 0 0;box-shadow: 0 1px 2px #dfdfdf;">
+        <div class="e-t-w-container clearfix" style="border-radius:5px 5px 0 0;position:relative;padding:20px 0 0;box-shadow: 0 1px 2px #ccc;max-width:300px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div class="edit-ele name" style="color:#E26A6A;font-size:14px;font-weight: bold;margin-left:20px;">

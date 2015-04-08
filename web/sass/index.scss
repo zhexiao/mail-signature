@@ -7,10 +7,6 @@
 	#{$property}: $value;
 }
 
-body{
-	background-color: #f9f9f9;
-}
-
 .white-popup{
 	background: #fff;
 	padding: 20px;
@@ -23,7 +19,6 @@ body{
 #w0{
 	border: none;
 	margin: 0;
-	background-color: #fff;
 
 	li.active{
 		a{
@@ -37,7 +32,6 @@ body{
 	.index-top{
 		.i-t-example{
 			margin-top: 20px;
-			background-color: #fff;
 			border: 1px solid #ccc;
 			min-height: 300px;
 			@include css3(border-radius, 5px);
