@@ -59,6 +59,7 @@ use yii\helpers\Url;
                     When you join Email Signature Rescue, you use our email signature software to build your very own email signature templates in no time. And you don't get just one email signature template, you get them all!
                 </div>
                 
+                <br>
                 <div class="share-div text-right">
                     <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-facebook">
                     </a>

@@ -23,10 +23,11 @@ body{
 #w0{
 	border: none;
 	margin: 0;
+	background-color: #fff;
 
 	li.active{
 		a{
-			color: #00cfef;
+			color: #1E8BC3;
 			background: none;
 		}
 	}
@@ -36,7 +37,7 @@ body{
 	.index-top{
 		.i-t-example{
 			margin-top: 20px;
-			background-color: #f9f9f9;
+			background-color: #fff;
 			border: 1px solid #ccc;
 			min-height: 300px;
 			@include css3(border-radius, 5px);
@@ -68,7 +69,7 @@ body{
 			.i-t-e-text{
 				float: right;
 				font-size: 13px;
-				color: #777;
+				color: #6C7A89;
 			}
 		}
 	}
@@ -175,15 +176,14 @@ body{
 	padding: 20px;
 	line-height: 2;
 	font-size: 17px;
-	color: #777;
+	color: #6C7A89;
 	@include css3(border-radius, 5px);
-	background-color: #f9f9f9;
+	background-color: #fff;
 }
 
 #mail-sig-carousel{
 	margin-top: 20px;
-	border: 2px solid #dfdfdf;
-	@include css3(box-shadow, 0 0 5px #dfdfdf);
+	border: 1px solid #dfdfdf;
 
 	.item{
 		img {
