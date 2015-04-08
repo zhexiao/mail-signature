@@ -7,6 +7,10 @@
 	#{$property}: $value;
 }
 
+body{
+	background-color: #f9f9f9;
+}
+
 .white-popup{
 	background: #fff;
 	padding: 20px;
@@ -102,14 +106,6 @@
 	.email-tpl-wrap{
 		margin-bottom:20px;
 
-		.e-t-w-container{
-			@include css3(border-radius, 5px);
-			border:1px solid #ccc;
-			padding: 10px 20px 20px;
-			position:relative;
-			background-color: #f9f9f9;
-		}
-
 		.e-t-w-t1{
 			margin-top: 5px;
 		}
@@ -131,16 +127,25 @@
 		a:hover{
 			text-decoration: none;
 		}
+
+		.generate-signature{
+			display: none;
+		}
 	}
 
 	.email-tpl-wrap:hover{
+
 		.edit-email-tpl{
 			display: inline-block;
+		}
+
+		.generate-signature{
+			display: block;
 		}
 	}
 
 	.edit-ele[contenteditable=true]{
-	  	padding: 0px 4px 0 0px;
+	  	padding: 0px 8px 0 0px;
 	  	border-bottom: 1px solid #ccc;
 	  	outline: 0;
 	  	margin-bottom: 2px;

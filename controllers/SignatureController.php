@@ -40,9 +40,9 @@ class SignatureController extends Controller{
 
         $res = \Cloudinary\Uploader::upload($tmpImage,
             [
-               "crop" => "limit", 
-               "width" => "48", 
-               "height" => "48",
+               "crop" => "fit", 
+               "width" => "60", 
+               "height" => "60",
             ]
         );
 

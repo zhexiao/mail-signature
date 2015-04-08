@@ -4,139 +4,109 @@
     </form>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix">
+        <div class="e-t-w-container clearfix" style="position:relative;background-color:#fff;border:1px solid #dfdfdf;padding:20px;box-shadow: 0 1px 2px #ccc;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <img src="/images/profile.png" width="60" height="60" style="float: left;margin: 3px 10px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
+            <img src="/images/profile.png" width="60" height="60" style="float: left;margin: 3px 20px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
             <div style="float:left;">
-                <div class="edit-ele name" style="font-size:14px;font-weight: bold;">
+                <div class="edit-ele name" style="font-size:14px;font-weight: bold;color:#E26A6A;">
                     {{first-last-name}}
                 </div>
 
-                <div class="edit-ele position" style="font-size:13px;margin-top:5px;">
+                <div class="edit-ele position" style="font-size:13px;margin-top:5px;color:#67809F;">
                     {{job-position}}
                 </div>
 
                 <div style="margin-top:5px;">
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                    <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">email:</span>
+                    <a style="margin-left:3px;display:inline-block;font-size:13px;color:#67809F;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
                 </div>
 
                 <div style="margin-top:5px;">
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">website:</span>
+                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#67809F;padding-right:10px;">{{website}}</a>
                 </div>
 
                  <div>
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">phone:</span>
+                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;color:#67809F;">{{phone}}</span>
                 </div>  
 
-                <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
+                <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
             </div>
         </div>
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix">
+        <div class="e-t-w-container clearfix" style="position:relative;background-color:#fff;border:1px solid #dfdfdf;padding:20px;box-shadow: 0 1px 2px #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <div style="float:left;padding-left:0px;border-left:5px solid #E04836;">
-                <img src="/images/profile.png" width="60" height="60" style="margin: 0px 10px 10px 10px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
+            <div style="float:left;padding-left:0px;border-left:5px solid #3EAADD;">
+                <img src="/images/profile.png" width="60" height="60" style="margin: 10px 10px 10px 20px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
-                <div class="edit-ele name" style="margin-left:10px;font-size:14px;font-weight: bold;">
+                <div class="edit-ele name" style="margin-left:20px;font-size:14px;font-weight: bold;color:#E26A6A;">
                     {{first-last-name}}
                 </div>
 
-                <div class="edit-ele position" style="margin-left:10px;font-size:13px;margin-top:5px;">
+                <div class="edit-ele position" style="margin-left:20px;font-size:13px;margin-top:5px;color:#67809F;">
                     {{job-position}}
                 </div>
 
-                <div style="margin-top:5px;margin-left:10px;">
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                    <a style="display:inline-block;font-size:13px;color:#000;padding-right:10px;margin-left:3px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                <div style="margin-top:5px;margin-left:20px;">
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">email:</span>
+                    <a style="display:inline-block;font-size:13px;color:#67809F;padding-right:10px;margin-left:3px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
                 </div>
 
-                <div style="margin-left:10px;margin-top:5px;">
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
+                <div style="margin-left:20px;margin-top:5px;">
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">website:</span>
+                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#67809F;padding-right:10px;">{{website}}</a>
                 </div>
 
-                 <div style="margin-left:10px;">
-                    <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
+                 <div style="margin-left:20px;margin-bottom:10px;">
+                    <span style="display:inline-block;font-size:12px;color:#3498DB;">phone:</span>
+                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;color:#67809F;">{{phone}}</span>
                 </div>  
             </div>
 
             <div class="clearfix"></div>
 
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix">
+        <div class="e-t-w-container clearfix" style="background-color:#fff;border-radius:5px 5px 0 0;border:1px solid #dfdfdf;position:relative;padding:20px 0 0;box-shadow: 0 1px 2px #dfdfdf;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <div class="edit-ele name" style="font-size:14px;font-weight: bold;">
+            <div class="edit-ele name" style="color:#E26A6A;font-size:14px;font-weight: bold;margin-left:20px;">
                 {{first-last-name}}
             </div>
 
-            <div class="edit-ele position" style="font-size:13px;margin-top:5px;">
+            <div class="edit-ele position" style="color:#67809F;font-size:13px;margin-top:5px;margin-left:20px;">
                 {{job-position}}
             </div>
 
-            <img src="/images/profile.png" width="60" height="60" style="margin: 5px 10px 5px 0px;border-radius:50%;cursor:pointer;" onclick="signature._uploadImg(event);">
+            <img src="/images/profile.png" width="60" height="60" style="margin: 20px 10px 20px 20px;border-radius:50%;cursor:pointer;" onclick="signature._uploadImg(event);">
 
-            <div style="margin-top:5px;">
-                <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
-            </div>
-          
-            <div style="margin-top:5px;">
-                <span style="display:inline-block;font-size:12px;color:#5696BC;">website:</span>
-                <a class="edit-ele c-link" href="{{website}}" target="_blank" style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;">{{website}}</a>
-            </div>
+            <div style="background-color:#3EAADD;padding:10px 20px 25px 10px;">
+                <div>
+                    <span style="display:inline-block;font-size:12px;color:#E4F1FE;">email:</span>
+                    <a style="color:#ECF0F1;margin-left:3px;display:inline-block;font-size:13px;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
+                </div>
+              
+                <div style="margin-top:5px;">
+                    <span style="display:inline-block;font-size:12px;color:#E4F1FE;">website:</span>
+                    <a class="edit-ele c-link" href="{{website}}" target="_blank" style="color:#ECF0F1;margin-left:3px;display:inline-block;font-size:13px;padding-right:10px;">{{website}}</a>
+                </div>
 
-             <div>
-                <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
-            </div>            
+                 <div>
+                    <span style="display:inline-block;font-size:12px;color:#E4F1FE;">phone:</span>
+                    <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;color:#ECF0F1;">{{phone}}</span>
+                </div>      
+            </div>      
 
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
-        </div>
-    </div>
-
-    <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
-
-            <div class="edit-ele name" style="font-size:14px;font-weight: bold;">
-                {{first-last-name}}
-            </div>
-
-            <div class="edit-ele position" style="font-size:13px;margin-top:5px;">
-                {{job-position}}
-            </div>
-
-            <img src="/images/profile.png" width="60" height="60" style="margin: 10px 10px 5px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);">
-
-            <div style="border: 1px solid #dfdfdf;background:#EAEEF3;color:#333;font-size:13px;padding:10px;text-align:center;border-radius:5px;margin-top:5px;" class="edit-ele">
-                {{intro}}
-            </div>
-
-            <div style="margin-top:10px;">
-                <span style="display:inline-block;font-size:12px;color:#5696BC;">email:</span>
-                <a style="margin-left:3px;display:inline-block;font-size:13px;color:#000;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
-            </div>
-
-             <div style="margin-top:5px;">
-                <span style="display:inline-block;font-size:12px;color:#5696BC;">phone:</span>
-                <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;">{{phone}}</span>
-            </div> 
-
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;display:block;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 10px 20px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 </script>
