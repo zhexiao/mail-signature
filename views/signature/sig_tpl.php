@@ -39,10 +39,10 @@
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;border-radius:5px;max-width:300px;float: left;">
+        <div class="e-t-w-container" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;border-radius:5px;max-width:300px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <div style="float:left;padding-left:0px;border-left:5px solid #3EAADD;clear:both;margin-bottom:10px;">
+            <div style="padding-left:0px;border-left:5px solid #3EAADD;">
                 <img src="/images/profile.png" width="60" height="60" style="margin: 10px 10px 10px 20px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
                 <div class="edit-ele name" style="margin-left:20px;font-size:14px;font-weight: bold;color:#E26A6A;">
