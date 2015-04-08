@@ -39,10 +39,10 @@
     </div>
 
     <div class="col-md-4 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;border-radius:5px;max-width:300px;">
+        <div class="e-t-w-container" style="position:relative;padding:20px;box-shadow: 0 1px 2px #ccc;border-radius:5px;max-width:300px;float: left;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
-            <div style="float:left;padding-left:0px;border-left:5px solid #3EAADD;">
+            <div style="float:left;padding-left:0px;border-left:5px solid #3EAADD;clear:both;margin-bottom:10px;">
                 <img src="/images/profile.png" width="60" height="60" style="margin: 10px 10px 10px 20px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
                 <div class="edit-ele name" style="margin-left:20px;font-size:14px;font-weight: bold;color:#E26A6A;">
@@ -68,8 +68,6 @@
                     <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;color:#67809F;">{{phone}}</span>
                 </div>  
             </div>
-
-            <div class="clearfix"></div>
 
             <button class="btn btn-success btn-xs generate-signature clearfix" style="margin-top:10px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
