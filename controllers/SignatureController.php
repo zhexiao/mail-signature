@@ -18,7 +18,8 @@ class SignatureController extends Controller{
             'company-name' => 'Company Name',
             'website' => 'http://website.com',
             'phone' => '+1 203 999 2222',
-            'intro' => 'Write yourself introduction.'
+            'intro' => 'Write yourself introduction.',
+            'address' => '125 XXXXX Street Apt #xxx, Connecticut, USA'
         ];
 
         return \yii\helpers\Json::encode($data);
