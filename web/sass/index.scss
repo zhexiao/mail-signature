@@ -30,40 +30,23 @@
 
 .index-container{
 	.index-top{
-		.i-t-example{
-			margin-top: 20px;
-			border: 1px solid #ccc;
-			min-height: 300px;
-			@include css3(border-radius, 5px);
+		margin: 20px;
 
-			.i-t-e-top{
-				border-bottom: 1px solid #ccc;
-				text-align: left;
-				padding: 10px;
-			}
+		.bx-wrapper .bx-viewport{
+			box-shadow: none;
+		}
 
-			span.dot{
-				@include css3(border-radius, 50%);
-				display: inline-block;
-				padding: 6px;
-			}
+		.bx-controls-direction a{
+			z-index: 1000;
+		}
 
-			.dot-red {
-			  	background-color: #d50808;
-			}
+		.mail-sign-example{
+			.slide {
+				border: 1px solid #ccc;
 
-			.dot-yellow {
-			  	background-color: #f5be15;
-			}
-
-			.dot-green {
-			  	background-color: #34b51a;
-			}
-
-			.i-t-e-text{
-				float: right;
-				font-size: 13px;
-				color: #6C7A89;
+				img{
+					height: 390px;
+				}
 			}
 		}
 	}
@@ -98,9 +81,14 @@
 }
 
 .index-mid{
+	margin: 20px 0;
+
 	.email-tpl-wrap{
 		margin-bottom:20px;
-		border-left: 2px solid #dfdfdf;
+		margin-right:20px;
+		float: left;
+		width: 350px;
+		border-color: hsla(0, 0%, 0%, 0.7);
 
 		.e-t-w-t1{
 			margin-top: 5px;
@@ -153,29 +141,13 @@
 	cursor: text;
 }
 
-.i-t-right-wrap{
-	padding: 0 15px;
+
+
+/* ---- isotope ---- */
+
+.isotope {
+  background: #DDD;
+  max-width: 1200px;
 }
 
-.i-t-r-info{
-	margin-top: 20px;
-	border: 1px solid #dfdfdf;
-	padding: 20px;
-	line-height: 2;
-	font-size: 17px;
-	color: #6C7A89;
-	@include css3(border-radius, 5px);
-	background-color: #fff;
-}
 
-#mail-sig-carousel{
-	margin-top: 20px;
-	border: 1px solid #dfdfdf;
-
-	.item{
-		img {
-			height: 400px;
-			width: 100%;
-		}
-	}
-}

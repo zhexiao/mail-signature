@@ -4,8 +4,8 @@
     </form>
 
     <!-- 1 -->
-    <div class="col-md-6 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:400px;clear:both;">
+    <div class="email-tpl-wrap">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <img src="/images/profile.png" width="60" height="60" style="float:left;display:inline-block;margin: 3px 20px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
@@ -40,8 +40,8 @@
     </div>
 
     <!-- 2 -->
-    <div class="col-md-6 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:400px;">
+    <div class="email-tpl-wrap">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;width:350px;border:1px solid #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="padding:5px 0 5px 20px;border-left:5px solid #E26A6A;">
@@ -75,8 +75,8 @@
     </div>
 
     <!-- 3 -->
-    <div class="col-md-6 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:30px 10px 10px 10px;max-width:400px;clear:both;">
+    <div class="email-tpl-wrap">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:30px 10px 10px 10px;width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="float:left;margin-bottom:20px;">
@@ -106,9 +106,9 @@
                 </div>
             </div>
 
-            <div style="clear:both;border-top:3px solid #999;"></div>
+            <div style="clear:both;height:5px;background-color:#999;">&nbsp;</div>
 
-            <div class="edit-ele address" style="margin-top:20px;font-size:14px;text-align:center;color:#67809F;">
+            <div class="edit-ele address" style="clear:both;margin-top:20px;font-size:14px;text-align:center;color:#67809F;">
                 {{address}}
             </div>  
             
@@ -118,8 +118,8 @@
     </div>
 
     <!-- 4 -->
-    <div class="col-md-6 email-tpl-wrap">
-        <div class="e-t-w-container" style="relative;padding:10px;border-radius:5px;max-width:400px;">
+    <div class="email-tpl-wrap">
+        <div class="e-t-w-container" style="position:relative;padding:10px;border-radius:5px;width:350px;border:1px solid #dfdfdf;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="padding-left:0px;padding-bottom:1px;border-left:5px solid #3EAADD;">
@@ -154,8 +154,8 @@
     </div>
 
     <!-- 5 -->
-    <div class="col-md-6 email-tpl-wrap">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;max-width:400px;">
+    <div class="email-tpl-wrap">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;width:350px;border:1px solid #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div class="edit-ele name" style="color:#E26A6A;font-size:14px;font-weight: bold;margin-left:10px;">
@@ -185,7 +185,7 @@
                 </div>      
             </div>      
 
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 10px 0px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 10px 10px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 </script>
