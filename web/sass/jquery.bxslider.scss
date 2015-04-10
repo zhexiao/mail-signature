@@ -104,21 +104,13 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-    left: 10px;
-    background: url(../images/controls.png) no-repeat 0 -32px;
+    left: -10px;
+    background: url(../images/chevron-left.png);
 }
 
 .bx-wrapper .bx-next {
-    right: 10px;
-    background: url(../images/controls.png) no-repeat -43px -32px;
-}
-
-.bx-wrapper .bx-prev:hover {
-    background-position: 0 0;
-}
-
-.bx-wrapper .bx-next:hover {
-    background-position: -43px 0;
+    right: 0px;
+    background: url(../images/chevron-right.png);
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -126,7 +118,7 @@
     top: 50%;
     margin-top: -16px;
     outline: 0;
-    width: 32px;
+    width: 26px;
     height: 32px;
     text-indent: -9999px;
     z-index: 9999;

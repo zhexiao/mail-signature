@@ -10,11 +10,6 @@ use yii\helpers\Url;
         <div class="slide"> <img src="/images/ex2.png"></div>
         <div class="slide"> <img src="/images/ex3.png"></div>
         <div class="slide"> <img src="/images/ex4.png"></div>
-
-        <div class="slide"> <img src="/images/ex1.png"></div>
-        <div class="slide"> <img src="/images/ex2.png"></div>
-        <div class="slide"> <img src="/images/ex3.png"></div>
-        <div class="slide"> <img src="/images/ex4.png"></div>
     </div>
 </div>
 
@@ -64,9 +59,9 @@ var indexScript = (function($){
         $('.mail-sign-example').bxSlider({
             infiniteLoop : true,
             hideControlOnEnd : true,
-            slideWidth: 250,
-            minSlides: 4,
-            maxSlides: 4 ,
+            slideWidth: 750,
+            minSlides: 1,
+            maxSlides: 1 ,
             moveSlides: 1,
             slideMargin: 20,
             pager : false,
