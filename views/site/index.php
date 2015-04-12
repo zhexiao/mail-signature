@@ -4,15 +4,6 @@ $this->title = 'Generate Mail Signature';
 use yii\helpers\Url;
 ?>
 
-<div class="index-top">
-    <div class="mail-sign-example">
-        <div class="slide"> <img src="/images/ex1.png"></div>
-        <div class="slide"> <img src="/images/ex2.png"></div>
-        <div class="slide"> <img src="/images/ex3.png"></div>
-        <div class="slide"> <img src="/images/ex4.png"></div>
-    </div>
-</div>
-
 <div class="clearfix index-mid isotope js-isotope" data-isotope-options='{ "layoutMode": "fitRows", "itemSelector": ".email-tpl-wrap" }'></div>
 
 <div class="clearfix"></div>
@@ -55,21 +46,6 @@ var indexScript = (function($){
         })
     }
 
-    var _loadSlide = function(){
-        $('.mail-sign-example').bxSlider({
-            infiniteLoop : true,
-            hideControlOnEnd : true,
-            slideWidth: 750,
-            minSlides: 1,
-            maxSlides: 1 ,
-            moveSlides: 1,
-            slideMargin: 20,
-            pager : false,
-            auto : true,
-            autoDelay : 2000,
-        });
-    }
-
     return {
         init : function(){
 
@@ -78,7 +54,6 @@ var indexScript = (function($){
         autoload : function(){
             _loadScrollReveal();
             _loadTemplate();
-            _loadSlide();
         }
     }
 })(window.jQuery);

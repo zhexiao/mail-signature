@@ -27,7 +27,6 @@ class AppAsset extends AssetBundle
         'js/lib/scrollReveal.min.js',
         'js/lib/jquery-ui.min.js',
         'js/lib/jquery.magnific-popup.min.js',
-        'js/lib/jquery.bxslider.min.js',
         'js/lib/isotope.pkgd.min.js',
         'js/main.js',
     ];
