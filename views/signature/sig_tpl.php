@@ -6,7 +6,7 @@
     <!-- 1 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container clearfix" style="position:relative;padding:10px;width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="top: 10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <img src="/images/profile.png" width="60" height="60" style="float:left;display:inline-block;margin: 3px 20px 3px 0px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
 
@@ -42,7 +42,7 @@
     <!-- 2 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container clearfix" style="position:relative;padding:10px;width:350px;border:1px solid #dfdfdf;border-radius:5px;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="top: 10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <div style="padding:5px 0 5px 20px;border-left:5px solid #E26A6A;">
                 <div class="edit-ele name" style="font-size:14px;font-weight: bold;color:#E26A6A;">
@@ -77,7 +77,7 @@
     <!-- 3 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container clearfix" style="position:relative;padding:10px;width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="bottom:10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="float:left;margin-bottom:20px;">
                 <div class="edit-ele name" style="font-size:14px;font-weight: bold;color:#E26A6A;">
@@ -120,7 +120,7 @@
     <!-- 4 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container" style="position:relative;padding:10px;border-radius:5px;width:350px;border:1px solid #dfdfdf;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="top: 10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <div style="padding-left:0px;padding-bottom:1px;border-left:5px solid #3EAADD;">
                 <img src="/images/profile.png" height="60" style="margin: 10px 10px 10px 20px;cursor:pointer;border-radius:50%;" onclick="signature._uploadImg(event);" >
@@ -156,7 +156,7 @@
     <!-- 5 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;width:350px;border:1px solid #dfdfdf;border-radius:5px;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="top: 10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <div class="edit-ele name" style="color:#E26A6A;font-size:14px;font-weight: bold;margin-left:10px;">
                 {{first-last-name}}
@@ -185,7 +185,7 @@
                 </div>      
             </div>      
 
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 10px 10px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 0px 10px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 
@@ -193,7 +193,7 @@
     <!-- 6 -->
     <div class="email-tpl-wrap">
         <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;width:350px;border:1px solid #dfdfdf;border-radius:5px;">
-            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" style="bottom: 10px;"></i>
+            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <div style="background-color:#E26A6A;margin:0 10px;padding:10px;">
                 <div class="edit-ele name" style="color:#fff;font-size:14px;font-weight: bold;">
