@@ -76,6 +76,7 @@ var signature = (function($){
         var formData= new FormData();
         formData.append("image", file);
 
+        $('.uploading').closest('.email-tpl-wrap').find('.fa-loader').show();
         $.ajax({
             url: "/index.php?r=signature/upload", 
             type: "POST",
@@ -84,8 +85,9 @@ var signature = (function($){
             processData: false,
             contentType: false,
         }).done(function(res){
+            $('.uploading').closest('.email-tpl-wrap').find('.fa-loader').hide();
             if(res.public_id != ''){
-                $('.uploading').attr('src', res.url);
+                $('.email-tpl-wrap img').attr('src', res.url);
             }
         });
     }
