@@ -157,7 +157,7 @@
 
     <!-- 5 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0 0;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -188,7 +188,7 @@
                 </div>      
             </div>      
 
-            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 0px 10px;" onclick="signature._gen(event);">Generate your signature</button>
+            <button class="btn btn-success btn-xs generate-signature clearfix" style="margin: 20px 0 10px 10px;" onclick="signature._gen(event);">Generate your signature</button>
         </div>
     </div>
 
