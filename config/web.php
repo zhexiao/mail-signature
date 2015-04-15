@@ -19,7 +19,9 @@ $config = [
             'cookieValidationKey' => '!$@#^&*)OLKI&!^2jsu2nwhsuaw',
         ],
         'UrlManager' => [
-            'class' => 'yii\web\UrlManager'
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
