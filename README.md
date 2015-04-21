@@ -1,7 +1,7 @@
-Social Network Posts Delete Manager
+Mail Signature
 ================================
 
-If you hate delete facebook or twitter posts one by one. Try the delete manager. It's so easy to delete multiple social network posts by one click. 
+Easy to generate your email signature.
 
 
 DIRECTORY STRUCTURE
@@ -26,51 +26,50 @@ REQUIREMENTS
 
 The minimum requirement by this application template that your Web server supports PHP 5.4.0.
 
-
-Server Configuration Suggestion
-------------
+SERVER CONFIGURATION
+-------------
 
 ### Nginx
 ```bash
 server {
-	listen *:80;
-	#listen [::]:80 ipv6only=on;
+  listen *:80;
+  #listen [::]:80 ipv6only=on;
 
-	root /var/www/html/posts-manager/web;
-	index index.php;
+  root /var/www/html/mail-signature/web;
+  index index.php;
 
-	# Make site accessible from http://localhost/
-	server_name pm.zhexiao.space;
+  # Make site accessible from http://localhost/
+  server_name sign.zhexiao.space;
 
-	access_log /var/log/nginx/pm.access.log;
-	error_log /var/log/nginx/pm.error.log;
+  access_log /var/log/nginx/sign.access.log;
+  error_log /var/log/nginx/sign.error.log;
 
-	location / {
-		# First attempt to serve request as file, then
-		# as directory, then fall back to displaying a 404.
-		# try_files $uri $uri/ =404;
-		try_files $uri $uri/ /index.php?$args;
-		# Uncomment to enable naxsi on this location
-		# include /etc/nginx/naxsi.rules
-	}	
+  location / {
+    # First attempt to serve request as file, then
+    # as directory, then fall back to displaying a 404.
+    # try_files $uri $uri/ =404;
+    try_files $uri $uri/ /index.php?$args;
+    # Uncomment to enable naxsi on this location
+    # include /etc/nginx/naxsi.rules
+  } 
 
-	error_page 404 /404.html;
-	error_page 500 502 503 504 /50x.html;
-	location = /50x.html {
-		root /var/www/html;
-	}
+  error_page 404 /404.html;
+  error_page 500 502 503 504 /50x.html;
+  location = /50x.html {
+    root /var/www/html;
+  }
 
-	location ~ \.php$ {
-		try_files $uri =404;
-		fastcgi_split_path_info ^(.+\.php)(/.+)$;
-		fastcgi_pass unix:/var/run/php5-fpm.sock;
-		fastcgi_index index.php;
-		include fastcgi_params;
-	}
+  location ~ \.php$ {
+    try_files $uri =404;
+    fastcgi_split_path_info ^(.+\.php)(/.+)$;
+    fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_index index.php;
+    include fastcgi_params;
+  }
 
-	location ~ /\.(ht|svn|git){
-		deny all;
-	}
+  location ~ /\.(ht|svn|git){
+    deny all;
+  }
 
 }
 ```
@@ -78,9 +77,9 @@ server {
 ### Apache
 ```bash
 <VirtualHost *:80>
-    DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs/posts-manager/web"
+    DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs/mail-signature/web"
 
-    <Directory "/Applications/XAMPP/xamppfiles/htdocs/posts-manager/web">
+    <Directory "/Applications/XAMPP/xamppfiles/htdocs/mail-signature/web">
         # use mod_rewrite for pretty URL support
         RewriteEngine on
         # If a directory or a file exists, use the request directly
@@ -90,8 +89,20 @@ server {
         RewriteRule . index.php
     </Directory>
 
-    ServerName local.pm.com
-    ErrorLog "logs/pm.example.com-error_log"
-    CustomLog "logs/pm.example.com-access_log" common
+    ServerName local.sign.com
+    ErrorLog "logs/sign.example.com-error_log"
+    CustomLog "logs/sign.example.com-access_log" common
 </VirtualHost>
 ```
+
+Technical
+---------
+
+- [Yii](http://www.yiiframework.com/) The Fast, Secure and Professional PHP Framework.
+
+- [Handlebars](http://handlebarsjs.com/) Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
+
+- [Cloudinary](http://cloudinary.com/) Cloudinary is the image back-end for web and mobile developers. An end-to-end solution for all your image-related needs.
+
+- [Bootstrap](http://getbootstrap.com/) Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
