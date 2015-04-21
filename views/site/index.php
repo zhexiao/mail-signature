@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = '1Mail Signature';
+$this->title = 'Mail Signature';
 use yii\helpers\Url;
 ?>
 
