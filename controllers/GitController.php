@@ -9,6 +9,7 @@ class GitController extends \yii\web\Controller{
         if(Yii::$app->request->isPost){
             $payload = Yii::$app->request->post('payload');
             if(!$payload){
+                var_dump($payload);
                 $data = json_decode($payload);
 
                 if($data->ref == "refs/heads/master"){          
