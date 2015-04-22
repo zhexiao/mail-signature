@@ -34,6 +34,7 @@ $this->title = 'Contact';
         // Create a new SaveWidgetOptions object for Google Sydney.
         var saveWidgetOptions = {
             place: {
+                placeId: 'ChIJC7zHsmShwokRbrc0nIuGQ4c',
                 location: myLatLng
             },
             attribution: {
