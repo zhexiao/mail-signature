@@ -3,11 +3,13 @@ $this->title = 'Contact';
 ?>
 
 <div class="contact-wrap">  
-    <div id="map-canvas"></div>
-    <div id="save-widget">
-       <strong>Stamford, Connecticut, USA</strong>
-       <p>Ya.. I am living at this city.</p>
-     </div>
+    <div class="container">
+        <div id="map-canvas"></div>
+        <div id="save-widget">
+           <strong>Stamford, Connecticut, USA</strong>
+           <p>Ya.. I am living at this city.</p>
+         </div>
+    </div>
 </div>
 
 
