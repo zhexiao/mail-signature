@@ -18,12 +18,34 @@
 
 #w0{
 	border: none;
+	border-top: 4px solid #6db33f;
 	margin: 0;
+	background-color: #34302d;
 
-	li.active{
-		a{
-			color: #1E8BC3;
-			background: none;
+	.navbar-brand{
+		height: 70px;
+		line-height: 35px;
+	}
+	
+	#w1{
+		li{			
+			height: 70px;
+
+
+			a{
+				height: 100%;
+				line-height: 35px;
+				color: #eeeeee;
+				font-weight: bold;
+				font-size: 16px;
+			}
+		}
+
+		li:hover, li.active{
+			background-color: #5fa134;
+			a{
+				background-color: #5fa134;
+			}
 		}
 	}
 }
@@ -40,22 +62,74 @@
 }
 
 .mail-sign-benefit{
-	margin:20px 0;
+	margin:0 ;
+	background-color: #f1f1f1;
+	position: relative;
 
 	ul{
+		/*@include css3(transform, rotate(4.2deg));*/
 		margin: 0;
 		padding: 0;
+		padding-top: 50px;
+
+
+		li{	
+			position: relative;
+			list-style-type: none;
+			padding: 20px;
+			margin: 20px 0;
+			color: #333;
+		}
 	}
 
-	li{	
-		list-style-type: none;
-		padding: 20px;
-		margin: 20px 0;
-		color: #333;
-	}
 }
 
 .index-container{
+	padding: 0;
+
+	.jumbotron{
+		border-radius: 0;
+		background-color: #666;
+		border-bottom: 1px solid #34302D;
+		padding-bottom: 100px;
+		margin-bottom: 0;
+
+		h5{
+			border-top: 4px solid #6db33f;
+			color: #ebf1e7;
+			display: inline;
+			padding: 5px 0;
+			font-size: 13px;
+		}
+
+		.p-title{
+			font-size: 24px;
+			padding: 20px 0;
+			color: #ebf1e7;
+		}
+
+		.p-desc{
+			font-size: 15px;
+			color: #f1f1f1;
+		}
+
+		.fa-github{
+			color: #ebf1e7;
+			font-size: 36px;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+
+		.fa-github:hover{
+			color: #6db33f;
+		}
+
+		.fa-github-alt{
+			font-size: 250px;
+			color: #BFBFBF;
+		}
+	}
+
 	.index-top{
 		margin: 20px;
 
@@ -74,7 +148,6 @@
 }
 
 .share-div{
-	padding: 20px 0;
 
 	.fa{
 		display: inline-block;
@@ -90,24 +163,18 @@
 	}
 
 	.fa:hover {
-	  background: #b93434;
+	  	background: #6db33f;
 	}
-
-	.fa-facebook {
-		background: #204385; }
-	.fa-twitter {
-		background: #2aa9e0; }
-	.fa-google-plus {
-		background: #d3492c; }
-	.fa-linkedin {
-		background: #02669a; }
 }
 
 .index-mid{
-	margin: 20px 0;
+	background: #f5f6f7;
+	border-top: 1px solid #dee0e3;
+	border-bottom: 1px solid #dee0e3;
+	padding: 50px 0 20px;
 
 	.email-tpl-wrap{
-		margin-bottom:30px;
+		margin-bottom:50px;
 		float: left;
 
 		.e-t-w-t1{
@@ -122,7 +189,7 @@
 			cursor: pointer;
 			display: none;
 			@include css3(transition, all 0.6s);
-			color: #663399;
+			color: #333;
 			font-weight: bold;
 		}
 
@@ -180,4 +247,8 @@
 }
 
 
-	
+.footer{
+	background-color: #34302d;
+	color: #eeeeee;
+	padding: 30px 0;
+}

@@ -37,6 +37,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
         ],
     ]);
@@ -45,17 +46,30 @@ AppAsset::register($this);
 
 <div class="clearfix"></div>
 
-<div class="container index-container">
+<div class="container-fluid index-container">
     <?= Breadcrumbs::widget([
         'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
     ]) ?>
     <?= $content ?>
 </div>
 
-<footer class="footer">
+<footer class="footer clearfix">
     <div class="container">
         <p class="pull-left">&copy; Mail Signature <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
+
+        <div class="share-div pull-right clearfix">
+            <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-facebook">
+            </a>
+
+            <a target="_blank" href="http://twitter.com/home?status=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-twitter">
+            </a>
+
+            <a target="_blank" href="http://plus.google.com/share?url=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-google-plus" >
+            </a>
+
+            <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-linkedin" >
+            </a>
+        </div>
     </div>
 </footer>
 

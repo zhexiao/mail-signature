@@ -236,7 +236,7 @@
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
-            <div class="edit-ele name" style="color:#9A12B3;font-size:14px;font-weight: bold;">
+            <div class="edit-ele name" style="color:#E26A6A;font-size:14px;font-weight: bold;">
                 {{first-last-name}}
             </div>
 
@@ -245,17 +245,17 @@
             </div>
 
             <div style="margin-top:10px;">
-                <span style="display:inline-block;font-size:12px;color:#9A12B3;font-weight:bold;">e:</span>
+                <span style="display:inline-block;font-size:12px;color:#E26A6A;font-weight:bold;">e:</span>
                 <a style="color:#67809F;margin-left:3px;display:inline-block;font-size:13px;padding-right:10px;" class="edit-ele email" href="mailto:{{email}}">{{email}}</a>
             </div>
             
             <div style="margin-top:5px;">
-                <span style="display:inline-block;font-size:12px;color:#9A12B3;font-weight:bold;">w:</span>
+                <span style="display:inline-block;font-size:12px;color:#E26A6A;font-weight:bold;">w:</span>
                 <a class="edit-ele c-link" href="{{website}}" target="_blank" style="color:#67809F;margin-left:3px;display:inline-block;font-size:13px;padding-right:10px;">{{website}}</a>
             </div>
 
              <div>
-                <span style="display:inline-block;font-size:12px;color:#9A12B3;font-weight:bold;">p:</span>
+                <span style="display:inline-block;font-size:12px;color:#E26A6A;font-weight:bold;">p:</span>
                 <span class="edit-ele phone" style="margin-left:3px;display:inline-block;font-size:13px;margin-top:5px;padding-right:10px;color:#67809F;">{{phone}}</span>
             </div>  
 
