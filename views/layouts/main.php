@@ -27,7 +27,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 <?php
     NavBar::begin([
-        'brandLabel' => 'Mail Signature',
+        'brandLabel' => "<i class='fa fa-envelope-o' style='font-size:32px;color:#ccc;'></i>",
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar navbar-default navbar-static-top',
