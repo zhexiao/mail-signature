@@ -78,7 +78,7 @@ var signature = (function($){
 
         $('.uploading').closest('.email-tpl-wrap').find('.fa-loader').show();
         $.ajax({
-            url: "/index.php?r=signature/upload", 
+            url: "/signature/upload", 
             type: "POST",
             data: formData,
             dataType : 'json',
