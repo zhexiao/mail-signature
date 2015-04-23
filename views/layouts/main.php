@@ -55,7 +55,7 @@ AppAsset::register($this);
 
 <footer class="footer clearfix">
     <div class="container">
-        <p class="pull-left">&copy; Mail Signature <?= date('Y') ?></p>
+        <p class="pull-left">&copy; Mail Signature(<?= date('Y')?>)</p>
 
         <div class="share-div pull-right clearfix">
             <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?=$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];?>" class="fa fa-facebook">
