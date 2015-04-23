@@ -77,8 +77,23 @@ class SiteController extends Controller
 
     public function actionContact()
     {      
-        return $this->render('contact');
-        
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
+
+            Yii::$app->mailer->compose('contact/html', ['contactForm' => $model])
+                ->setFrom('zhexiao@163.com')
+                ->setTo($model->email)
+                ->setSubject($model->subject)
+                ->send();
+
+
+            Yii::$app->session->setFlash('contactFormSubmitted');
+            return $this->refresh();
+        } else {
+            return $this->render('contact', [
+               'model' => $model,
+            ]);
+        }
     }
 
     public function actionAbout()
