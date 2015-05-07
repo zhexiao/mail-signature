@@ -25,13 +25,10 @@ class AppAsset extends AssetBundle
         'js/lib/handlebars-v3.0.0.js',
         'js/lib/pace.min.js',
         'js/lib/scrollReveal.min.js',
-        'js/lib/jquery-ui.min.js',
         'js/lib/jquery.magnific-popup.min.js',
         'js/main.js',
     ];
 
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
     ];
 }

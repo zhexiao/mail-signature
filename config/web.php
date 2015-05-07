@@ -45,7 +45,15 @@ $config = [
             'rules' => [
                 // ...
             ],
-        ]
+        ],
+        // assets bundle, remove inside bundle js
+        'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => false,
+                'yii\bootstrap\BootstrapAsset' => false,
+                'yii\bootstrap\BootstrapPluginAsset' => false
+            ],
+        ],
     ],
     'params' => $params,
 ];

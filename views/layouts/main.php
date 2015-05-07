@@ -9,6 +9,7 @@ use app\assets\AppAsset;
 /* @var $content string */
 
 AppAsset::register($this);
+\yii\web\View::registerJsFile('https://code.jquery.com/jquery-2.1.4.min.js', ['position' => \yii\web\View::POS_HEAD]);
 ?>
 <?php $this->beginPage() ?>
 
@@ -17,7 +18,7 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
