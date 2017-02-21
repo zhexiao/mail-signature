@@ -107,6 +107,12 @@ Technical
 - [Bootstrap](http://getbootstrap.com/) Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
 
+SASS Command
+------------
+```shell
+$ sass --watch sass:c --no-cache --sourcemap=none --style compressed
+```
+
 Troubleshooting
 -------------
 mbstring is a non-default extension. This means it is not enabled by default. You must explicitly enable the module with the configure option.
