@@ -34,9 +34,9 @@ class SignatureController extends Controller{
         $size = $_FILES['image']['size'];
 
         \Cloudinary::config(array( 
-            "cloud_name" => "zximageclound", 
-            "api_key" => "773235588986114", 
-            "api_secret" => "etTsunygMgZz-R_11iVlCn2lMms" 
+            "cloud_name" => "zxclound", 
+            "api_key" => "971754229747538", 
+            "api_secret" => "11jwmgj3Ro2q3JNo6jfypBtsEcA" 
         ));
 
         $res = \Cloudinary\Uploader::upload($tmpImage,
