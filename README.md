@@ -110,7 +110,7 @@ Technical
 SASS Command
 ------------
 ```shell
-$ sass --watch sass:c --no-cache --sourcemap=none --style compressed
+$ sass --watch sass/site.scss:css/site.css --no-cache --sourcemap=none --style compressed
 ```
 
 Troubleshooting
