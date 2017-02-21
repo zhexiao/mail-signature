@@ -109,7 +109,7 @@ Technical
 
 SASS Command
 ------------
-``shell
+```shell
 $ sass --watch sass:c --no-cache --sourcemap=none --style compressed
 ```
 
