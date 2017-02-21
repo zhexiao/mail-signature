@@ -106,3 +106,13 @@ Technical
 
 - [Bootstrap](http://getbootstrap.com/) Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
+
+Troubleshooting
+-------------
+mbstring is a non-default extension. This means it is not enabled by default. You must explicitly enable the module with the configure option.
+
+```shell
+# For Linux Mint using PHP 7:
+$ sudo apt-get install php7.0-mbstring
+$ sudo service php7.0-fpm restart
+```
