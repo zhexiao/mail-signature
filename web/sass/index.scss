@@ -68,6 +68,7 @@ body {
 	margin:0 ;
 	background-color: #f1f1f1;
 	position: relative;
+	box-shadow: 1px 1px 2px #ccc;
 
 	ul{
 		/*@include css3(transform, rotate(4.2deg));*/
@@ -81,7 +82,31 @@ body {
 			list-style-type: none;
 			padding: 20px;
 			margin: 20px 0;
-			color: #333;
+			color: #fff;
+		}
+
+		li:first-of-type{
+			background:#96281B;
+		}
+
+		li:nth-child(2){
+			background:#663399;
+		}
+
+		li:nth-child(3){
+			background:#674172;
+		}
+
+		li:nth-child(4){
+			background:#446CB3;
+		}
+
+		li:nth-child(5){
+			background:#049372;
+		}
+
+		li:nth-child(6){
+			background:#D35400;
 		}
 	}
 
@@ -171,7 +196,7 @@ body {
 }
 
 .index-mid{
-	background: #f5f5f5;
+	background: #fff;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	padding: 50px 0 20px;
@@ -279,5 +304,5 @@ body {
 }
 
 .about-wrap{
-	min-height: 600px;
+	min-height: 750px;
 }

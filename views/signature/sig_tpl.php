@@ -5,7 +5,7 @@
 
     <!-- 1 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;clear:both;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -42,7 +42,7 @@
 
     <!-- 2 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12 pull-right">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
 
             <div style="padding:5px 0 5px 20px;border-left:5px solid #E26A6A;">
@@ -77,7 +77,7 @@
 
     <!-- 3 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;clear:both;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;clear:both;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);"></i>
 
             <div style="float:left;margin-bottom:20px;">
@@ -120,7 +120,7 @@
 
     <!-- 4 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12 pull-right">
-        <div class="e-t-w-container" style="position:relative;padding:10px;border-radius:5px;max-width:350px;border:1px solid #dfdfdf;">
+        <div class="e-t-w-container" style="position:relative;padding:10px;border-radius:5px;max-width:350px;border:1px solid #ccc;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -157,7 +157,7 @@
 
     <!-- 5 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0 0;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0 0;max-width:350px;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -195,7 +195,7 @@
 
     <!-- 6 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12 pull-right">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -232,7 +232,7 @@
 
     <!-- 7 -->
     <div class="email-tpl-wrap col-md-6 col-xs-12">
-        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+        <div class="e-t-w-container clearfix" style="position:relative;padding:10px;max-width:350px;border:1px solid #ccc;border-radius:5px;">
             <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
             <i class="fa fa-spinner fa-spin fa-loader"></i>
 
@@ -271,7 +271,7 @@
 
     <!-- 8 -->  
     <div class="email-tpl-wrap col-md-6 col-xs-12 pull-right">
-       <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;max-width:350px;border:1px solid #dfdfdf;border-radius:5px;">
+       <div class="e-t-w-container clearfix" style="position:relative;padding:10px 0;max-width:350px;border:1px solid #ccc;border-radius:5px;">
            <i class="fa fa-edit edit-email-tpl" onclick="signature._editTpl(event);" ></i>
            <i class="fa fa-spinner fa-spin fa-loader"></i>
 

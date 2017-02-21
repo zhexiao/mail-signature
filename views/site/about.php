@@ -14,3 +14,4 @@ $this->params['breadcrumbs'][] = $this->title;
 	  	<script src="//about.me/embed/zhexiao"></script>
 	</div>
 </div>
+<div class="clearfix"></div>
